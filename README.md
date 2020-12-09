@@ -9,9 +9,9 @@
 | name            | string    | null: false |
 | email           | string    | null: false |
 | password        | string    | null: false |
-| height          | integar   | null: false |
-| weight          | integar   | null: false |
-| goal_weight     | integar   | null: false |
+| height          | integar   |             |
+| weight          | integar   |             |
+| goal_weight     | integar   |             |
 
 ### Association
 
