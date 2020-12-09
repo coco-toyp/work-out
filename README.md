@@ -24,7 +24,21 @@
 | --------        | ------    | ----------- |
 | event           | string    | null: false |
 | weight          | integar   | null: false |
-| rep             | string    | null: false |
+| rep             | integar   | null: false |
+| date            | integar   | null: false |
+
+
+### Association
+
+- belongs_to :user
+
+## meals テーブル
+
+| Column          | Type      | Options     |
+| --------        | ------    | ----------- |
+| datetime        | integar   | null: false |
+| food            | integar   | null: false |
+| calor           | integar   | null: false |
 
 
 ### Association
