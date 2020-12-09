@@ -17,3 +17,16 @@
 
 - has_many :workouts
 - has_many :meals
+
+## workouts テーブル
+
+| Column          | Type      | Options     |
+| --------        | ------    | ----------- |
+| event           | string    | null: false |
+| weight          | integar   | null: false |
+| rep             | string    | null: false |
+
+
+### Association
+
+- belongs_to :user
