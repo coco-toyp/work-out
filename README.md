@@ -9,9 +9,9 @@
 | name            | string    | null: false |
 | email           | string    | null: false |
 | password        | string    | null: false |
-| height          | integar   |             |
-| weight          | integar   |             |
-| goal_weight     | integar   |             |
+| height          | integer   |             |
+| weight          | integer   |             |
+| goal_weight     | integer   |             |
 
 ### Association
 
@@ -23,9 +23,9 @@
 | Column          | Type      | Options     |
 | --------        | ------    | ----------- |
 | event           | string    | null: false |
-| weight          | integar   | null: false |
-| rep             | integar   | null: false |
-| date            | integar   | null: false |
+| weight          | integer   | null: false |
+| rep             | integer   | null: false |
+| date            | date      | null: false |
 
 
 ### Association
@@ -36,9 +36,9 @@
 
 | Column          | Type      | Options     |
 | --------        | ------    | ----------- |
-| datetime        | integar   | null: false |
-| food            | integar   | null: false |
-| calor           | integar   | null: false |
+| datetime        | datetime  | null: false |
+| food            | integer   | null: false |
+| calor           | integer   | null: false |
 
 
 ### Association
