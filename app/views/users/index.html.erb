@@ -1,0 +1,11 @@
+<h1>Users#index</h1>
+<% if user_signed_in? %>
+  <%= link_to "プロフィール", user_path(id: current_user.id) %>
+  <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+<% else %>
+  <%= link_to "サインアップ", new_user_registration_path %>
+  <%= link_to "サインイン", new_user_session_path %>
+<% end %>
+
+仮のトップページ
+workouts#index
